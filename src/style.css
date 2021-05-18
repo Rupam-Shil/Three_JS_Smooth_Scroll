@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap');
+s * {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	height: 100vh;
+	font-family: 'Playfair Display', serif;
+	color: white;
+	overflow: hidden;
+}
+
+.webgl {
+	position: fixed;
+	top: 0;
+	left: 0;
+	outline: none;
+}
+.content {
+	position: absolute;
+	display: grid;
+	align-items: center;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+}
+h1 {
+	font-size: 5em;
+	font-weight: lighter;
+	margin-left: 10vw;
+}
